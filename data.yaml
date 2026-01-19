@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Laptop', 'office chairs', 'paper clip', 'pen', 'pencil', 'printer']
+
+roboflow:
+  workspace: noobee
+  project: office-objects-ofdyy
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/noobee/office-objects-ofdyy/dataset/3
